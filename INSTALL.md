@@ -26,5 +26,5 @@ https://github.com/jfeliu007/goplantuml
 ```
 go get github.com/jfeliu007/goplantuml/parser
 go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest
-goplantuml -recursive -hide-methods -hide-private-members channels > diagram.puml
+goplantuml -recursive -hide-fields -hide-methods -hide-private-members server/channels > diagram.puml
 ```
